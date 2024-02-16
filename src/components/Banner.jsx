@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div className="banner container mx-auto">
       <div className="row d-flex flex-column-reverse flex-lg-row justify-content-between align-items-center">
-        <div className="col-lg-6 mb-3 mb-lg-0 ">
+        <div className="col-lg-6 mb-3 mb-lg-0 border-end  border-2  ">
           <h1>Welcome to Surgicare Equipment</h1>
           <p className="mb-3">
             Explore our wide range of high-quality surgical equipment for your

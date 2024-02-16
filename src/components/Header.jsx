@@ -13,7 +13,7 @@ const Header = () => {
   }, [location.pathname]);
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-black sticky-lg-top   ">
+      <nav className="navbar navbar-expand-lg bg-black sticky-lg-top  ">
         <div className="container">
           <Link className="navbar-brand text-danger" to="/">
             Navata Surgicare
