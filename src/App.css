@@ -13,13 +13,23 @@ body {
 a {
     text-decoration: none;
 }
-.banner {
+ .banner {
     width: 100%;
-    height: 91.2vh;
-    background-image: url("/surgicare\ back.png");
+    height:91vh;
+   
+} 
+.bannerimg img{
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .bannerimg img{
+        height: 260px;
+        
+    }
 }
 
 .nav-item a {

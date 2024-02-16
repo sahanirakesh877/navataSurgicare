@@ -6,7 +6,7 @@ const Product = () => {
     <>
       <div className="container">
         <h3 className="h3 text-center py-4 text-success ">
-          Flash sale  Products
+          Flash sale On Products
         </h3>
         <div className="row ">
           {productdata.map((item) => {
