@@ -13,6 +13,17 @@ body {
 a {
     text-decoration: none;
 }
+
+#NavataLogo {
+    height: 60px;
+    padding: 0;
+    margin: 0;
+}
+.navBg {
+    background-color:rgb(210, 203, 203);
+    box-shadow: 0px 10px 10px -8px rgb(148, 148, 148);
+}
+
 .head{
     font-size:50px;
     
@@ -41,7 +52,7 @@ a {
 }
 .navbar-nav .nav-item .nav-link {
     padding: 10px 18px;
-    color: white;
+    color: rgb(3, 3, 3);
 }
 
 /* contact us page */
