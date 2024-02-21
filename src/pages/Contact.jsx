@@ -22,7 +22,7 @@ const Contact = () => {
                                     className="form"
                                     name="enq"
                                     method="post"
-                                    onsubmit="return validation();"
+                                    onSubmit="return validation();"
                                 >
                                     <div className="row">
                                         <div className="form-group col-md-6 pb-3">

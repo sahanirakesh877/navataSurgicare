@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     scroll-behavior: smooth;
 }
 body {
-    font-family: "Roboto Slab", serif;
+    font-family: "Poppins", sans-serif;
     background-color: rgb(240, 234, 234);
     list-style: none;
 }
@@ -20,7 +20,7 @@ a {
     margin: 0;
 }
 .navBg {
-    background-color:rgb(210, 203, 203);
+    background-color:rgb(255, 255, 255);
     box-shadow: 0px 10px 10px -8px rgb(148, 148, 148);
 }
 
@@ -35,6 +35,7 @@ a {
 } 
 .bannerimg img{
     height: 85vh;
+    margin-bottom: 20px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

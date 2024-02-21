@@ -40,7 +40,7 @@ const Header = () => {
                         } navbar-collapse`}
                         id="navbarNav"
                     >
-                        <ul className="navbar-nav ms-auto ">
+                        <ul className="navbar-nav ms-auto">
                             <li className="nav-item">
                                 <Link
                                     className="nav-link active  "
