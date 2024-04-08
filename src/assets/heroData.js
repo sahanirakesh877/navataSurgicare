@@ -10,6 +10,8 @@ import drPanel from "/detectorPanel.png";
 import xRayImg from "/x-ray.png";
 import colonscopeImg from "/colonscope.png";
 import instrumentsImg from "/instruments.png";
+import incuImg from "/nicu.png";
+import dentalSetup from "/dentalSetup.png";
 
 export const images = [
   {
@@ -45,12 +47,8 @@ export const images = [
     image: nicuingImg,
     subItems: [
       {
-        title: "Operation Table",
-        image: operationTableImg,
-      },
-      {
-        title: "Anesthesia Machine",
-        image: anesthesiaImg,
+        title: "NICU",
+        image: incuImg,
       },
     ],
   },
@@ -73,20 +71,8 @@ export const images = [
     image: DentalImg,
     subItems: [
       {
-        title: "Operation Table",
-        image: operationTableImg,
-      },
-      {
-        title: "Anesthesia Machine",
-        image: anesthesiaImg,
-      },
-      {
-        title: "Operation Table",
-        image: operationTableImg,
-      },
-      {
-        title: "Anesthesia Machine",
-        image: anesthesiaImg,
+        title: "Dental Setup",
+        image: dentalSetup,
       },
     ],
   },

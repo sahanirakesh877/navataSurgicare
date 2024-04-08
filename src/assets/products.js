@@ -16,6 +16,7 @@ import hysterographyImg from "/hysterography.png";
 import hospitalBedImg from "/hospitalBed.png";
 import phototherapyImg from "/phototherapy.png";
 import vaccumExtraactor from "/vaccumExtrator.png";
+import dentalSetup from "/dentalSetup.png";
 
 export const products = [
   {
@@ -80,8 +81,7 @@ export const products = [
   },
   {
     name: "Dental Setup",
-    image:
-      "https://5.imimg.com/data5/ANDROID/Default/2021/1/NH/VN/PR/70082398/img-20210109-wa0019-jpg-500x500.jpg",
+    image: dentalSetup,
   },
   {
     name: "Phototherapy",

@@ -47,11 +47,11 @@ const About = () => {
         <div className="row">
           <h5 className="text-success fw-semibold py-4">Why Choose Us?</h5>
         </div>
-        <div className="row d-flex justify-content-between  align-items-center  gap-3 ">
-          <div className="col-lg-6">
+        <div className="row d-flex justify-content-around align-items-center  gap-3 ">
+          <div className="col-lg-5 flex-grow-1 ">
             <img src={aboutImg} alt="AboutUS" id="aboutImg" />
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-5">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
               obcaecati quisquam minus officia dolorem nemo neque? Suscipit,
