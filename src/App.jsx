@@ -7,8 +7,8 @@ import Endovision from "./pages/Endovision";
 import Dental from "./pages/Dental";
 import Product from "./pages/Product";
 import Footer from "./components/Footer";
-import MedicalSetup from "./pages/MedicalSetup";
 import PageNotFound from "./pages/PageNotFound";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -19,11 +19,12 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/endo" element={<Endovision />} />
         <Route path="/dental" element={<Dental />} />
-        <Route path="/medical" element={<MedicalSetup/>} />
+        <Route path="/about" element={<About />} />
         <Route path="/product" element={<Product />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<PageNotFound/>} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
+
       <Footer />
     </>
   );

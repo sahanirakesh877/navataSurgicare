@@ -1,48 +1,47 @@
-import React from "react";
-
-import homeImg from "/homeimg.png";
-import { Link } from "react-router-dom";
+import Slider from "react-slick";
+import { images } from "../assets/heroData";
 
 const Banner = () => {
-    return (
-        <div className="banner container mx-auto">
-            <div className="row d-flex flex-column-reverse flex-lg-row justify-content-between align-items-center">
-                <div className="col-lg-6 mb-3 mb-lg-0 ">
-                    <h1 className="fw-bolder head">
-                        {" "}
-                        The Only Make In
-                        <br /> India 4K Laproscopic
-                        <br /> System
-                    </h1>
-                    <p className="mb-3">
-                        It's time to change your old laproscopic system into new
-                        gen 4k system
-                    </p>
-                    <div className="d-flex  flex-lg-row gap-2">
-                        <Link to="product">
-                            <button className="btn btn1 rounded-pill text-light px-4  py-2">
-                                Shop Now
-                            </button>
-                        </Link>
-                        <Link to="product">
-                            <button className="btn btn2 rounded-pill text-light  px-4 py-2">
-                                Get More
-                            </button>
-                        </Link>
-                    </div>
-                </div>
-                <div className="col-lg-6">
-                    <div className="bannerimg d-flex justify-content-center ">
-                        <img
-                            src={homeImg}
-                            alt="Surgicare Equipment"
-                            className="img-fluid"
-                        />
-                    </div>
-                </div>
+  var settings = {
+    infinite: true,
+    speed: 2000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    fade: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    accessibility: false,
+    swipe: false,
+    arrows: false,
+  };
+
+  return (
+    <Slider {...settings}>
+      {images.map((items, index) => {
+        return (
+          <div className="imageContainer" key={index}>
+            <img src={items.image} alt={items.title} className="heroImg" />
+            <div className="imageText">
+              <h1 className="textImage">{items.title}</h1>
+              <div className="subItems">
+                {items.subItems &&
+                  items.subItems.map((item, index) => {
+                    return (
+                      <div className="subItem" key={index}>
+                        <img src={item.image} alt={item.title} />
+                        <h5>{item.title}</h5>
+                      </div>
+                    );
+                  })}
+              </div>
             </div>
-        </div>
-    );
+          </div>
+        );
+      })}
+    </Slider>
+  );
 };
 
 export default Banner;

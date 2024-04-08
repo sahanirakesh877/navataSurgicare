@@ -1,16 +1,20 @@
 import React from "react";
-import Banner from './../components/Banner';
-import Details from './../components/Details';
+import Banner from "./../components/Banner";
+import Products from "./../components/Products";
 import Contact from "./Contact";
 import Dental from "./Dental";
+import About from "./About";
+import Testimonial from "../components/Testimonial";
 
 const Home = () => {
   return (
     <>
-      <Banner/>
-      <Details/>
-      <Dental/>
-      <Contact/>
+      <Banner />
+      <Products />
+      <About />
+      <Dental />
+      <Contact />
+      <Testimonial />
     </>
   );
 };

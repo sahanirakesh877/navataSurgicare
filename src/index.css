@@ -1,0 +1,129 @@
+.imageContainer {
+  height: 85vh;
+  position: relative;
+}
+
+.heroImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imageText {
+  padding-left: 30px;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  color: white;
+  background: linear-gradient(to right, #000000, #f0f0f000);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.imageText > h1 {
+  font-size: xx-large;
+  font: bolder;
+}
+
+.subItem {
+  padding: 10px;
+  text-align: center;
+}
+
+.subItem > img {
+  height: 200px;
+  margin-bottom: 2px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.subItems {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.textImage {
+  padding-top: 20px;
+}
+
+#ourProducts {
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridItems {
+  height: 300px;
+  margin: 20px;
+  box-shadow: 5px 5px 50px -40px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+#aboutContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutContainer > * {
+  flex: 1;
+}
+
+#aboutImg {
+  width: 100%;
+  border-radius: 15px;
+}
+
+#aboutText {
+  display: flex;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+#aboutText > div > li {
+  display: flex;
+  font-size: large;
+  text-wrap: wrap;
+  padding: 10px;
+  align-items: start;
+}
+
+.productImage {
+  height: 85%;
+  width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 567px) {
+  .subItem > img {
+    height: 150px;
+    margin-bottom: 2px;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .imageText {
+    width: 100vw;
+  }
+
+  #aboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
