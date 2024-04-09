@@ -8,10 +8,10 @@ import operationTableImg from "/operationTable.png";
 import anesthesiaImg from "/anesthesia.png";
 import drPanel from "/detectorPanel.png";
 import xRayImg from "/x-ray.png";
-import colonscopeImg from "/colonscope.png";
 import instrumentsImg from "/instruments.png";
 import incuImg from "/nicu.png";
 import dentalSetup from "/dentalSetup.png";
+import laparTower from "/4kLapa.png";
 
 export const images = [
   {
@@ -33,8 +33,8 @@ export const images = [
     image: laproscopingImg,
     subItems: [
       {
-        title: "Colonscope",
-        image: colonscopeImg,
+        title: "4k laparoscopic tower",
+        image: laparTower,
       },
       {
         title: "Instruments",

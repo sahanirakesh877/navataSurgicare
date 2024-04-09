@@ -60,7 +60,7 @@ export const products = [
     image: laserImg,
   },
   {
-    name: "Colonscope",
+    name: "Colposcopes",
     image: colonscopeImg,
   },
   {

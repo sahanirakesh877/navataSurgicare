@@ -45,13 +45,31 @@ const Header = () => {
                   Home
                 </Link>
               </li>
-              <li className="nav-item ">
+              {/* <li className="nav-item ">
                 <Link
                   className="nav-link  "
                   to="/endo"
                   onClick={handleNavCollapse}
                 >
                   Endovision System
+                </Link>
+              </li> */}
+              {/* <li className="nav-item">
+                <Link
+                className="nav-link "
+                to="/dental"
+                onClick={handleNavCollapse}
+                >
+                Dental Setup
+                </Link>
+              </li> */}
+              <li className="nav-item">
+                <Link
+                  className="nav-link "
+                  to="/product"
+                  onClick={handleNavCollapse}
+                >
+                  Products
                 </Link>
               </li>
               <li className="nav-item">
@@ -61,24 +79,6 @@ const Header = () => {
                   onClick={handleNavCollapse}
                 >
                   About Us
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link "
-                  to="/dental"
-                  onClick={handleNavCollapse}
-                >
-                  Dental Setup
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link "
-                  to="/product"
-                  onClick={handleNavCollapse}
-                >
-                  Products
                 </Link>
               </li>
               <li className="nav-item">
